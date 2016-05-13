@@ -1,2 +1,27 @@
-# ionic-conference
-Test Ionic Conference App
+# Ionic Tutorial
+
+In this tutorial, you learn how to build a native-like mobile application with Ionic and AngularJS. You build a Conference application that allows the attendees of the conference to browse through the list of sessions, and share information on Facebook.
+
+Follow the step-by-step instructions available here: http://ccoenraets.github.io/ionic-tutorial/
+
+### Run Server
+```
+cd server
+npm install
+node server
+```
+
+Test REST request:
+
+```
+http://localhost:5000/sessions/1
+```
+
+### Run App
+
+```
+cd conference
+ionic serve
+```
+
+
